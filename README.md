@@ -117,8 +117,8 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
       -- entityTest
         -- carTest
       -- serviceTest
-				-- apiServiceTest
-				-- carServiceTest
+        -- apiServiceTest
+        -- carServiceTest
         
         Well written test in Jasmine. 
 ```
