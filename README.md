@@ -26,27 +26,49 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Code Structure
 ```bash
 |-- src
+|
 | |-- carComponent
+| 
 | | |-- car
+| 
 | | | |-- carComponent.html
+|
 | | | |-- carComponent.ts
+|
 | | | |-- carComponent.css
+|
 | | |-- entity
+|
 | | | |-- car
+|
 | | |-- service
+|
 | | | |-- apiService
+|
 | | | |-- carService
+|
 | |-- carComponentTest
+|
 | | |-- carTest
+|
 | | | |-- carComponentTest
+|
 | | |-- entityTest
+|
 | | | |-- carTest
+|
 | | |-- serviceTest
+|
 | | | |-- apiServiceTest
+|
 | | | |-- carServiceTest
+|
 |-- app-routing.module.ts
+|
 |-- app.config.ts
+|
 |-- app.module.ts
+|
 |-- other angular created files
 ```
 
