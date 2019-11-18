@@ -28,16 +28,15 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 |-- src
 | |-- carComponent
 | | |-- car
-      carComponent.html
-      carComponent.ts
-      carComponent.css
-			-- entity
-				-- car
-			--Service
-				-- ApiService
-				-- CarService
-
-		-- CarComponentTest
+| | | |-- carComponent.html
+| | | |-- carComponent.ts
+| | | |-- carComponent.css
+| | |-- entity
+| | | |-- car
+| | |-- service
+| | | |-- apiService
+| | | |-- carService
+| |-- carComponentTest
 			-- carTest
 				-- carComponentTest
 			-- entityTest
