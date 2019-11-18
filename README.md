@@ -73,6 +73,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ```
 
 ## Code details
+```bash
   - apiService (service folder): has a method called get(). This method calls http get 			method. API Url is passed to the http  get method from app.config.ts using 			@Inject(). http get method fecthes data from the server and return an 			Observable
 
 	- carService (service folder): 
@@ -109,7 +110,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 	- carComponent.html: is the view. Display car list in the table. allows user filter or 			sort the list. User can also refresh the list by clicking on the refresh button
 	- app.config.ts: stores the url to API. can be editted manually or by passing the url 			through the terminal using this variable GETCARS_ENDPOINT
 -- CarComponentTest
-
+```
 
 ## Further help
 
