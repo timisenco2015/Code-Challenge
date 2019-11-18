@@ -25,7 +25,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 ## Code Structure
 
-  -- Src
+  |- Src
 		-- CarComponent
 			-- car
 				--carComponent.html
