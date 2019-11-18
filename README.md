@@ -23,9 +23,32 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Code Structure
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+  -- Src
+		-- CarComponent
+			-- car
+				--carComponent.html
+				-- carComponent.ts
+				-- carComponent.css
+			-- entity
+				-- car
+			--Service
+				-- ApiService
+				-- CarService
+
+		-- CarComponentTest
+			-- carTest
+				-- carComponentTest
+			-- entityTest
+				-- carTest
+			-- serviceTest
+				-- apiServiceTest
+				-- carServiceTest
+		-- app-routing.module.ts
+		-- app.config.ts
+		-- app.module.ts
+		-- other angular created files
 
 ## Further help
 
