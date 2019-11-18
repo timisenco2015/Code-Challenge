@@ -90,8 +90,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 			- sortDataDescendEngine(): sort car list in descending order using engine as the sort criteria returns Observable
 			- sortDataAscendColor(): sort car list in ascending order using color as the sort criteria returns Observable
 			- sortDataDescendColor(): sort car list in descending order using color as the sort criteria returns Observable
-			- filterByName(name:string): accept name (car name) as parameter. It filters car list by name (car name) returns    
-          Observable
+			- filterByName(name:string): accept name (car name) as parameter. It filters car list by name (car name) return Observable
 			- filterByMileage(mileage:number): accept mileage as parameter. It filters car list by mileage returns Observable
 			- filterByModel(model:string): accept model as parameter. It filters car list by model and returns Observable
 			- filterByEngine(engine:string): accept engine as parameter. It filters car list by engine and returns Observable
