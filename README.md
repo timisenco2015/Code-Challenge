@@ -98,8 +98,8 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 			- handleError(error: Response) : handles error return http get errors.
 
 	-car (entity folder): is the Car class. 
-		methods are: getMileage(), setMileage(mileage:number), getName(), setName(name:string), getModel(), setModel(model:string),       
-      getEngine(), setEngine(engine:string), getColor(), setColor(color:string)
+		methods are: getMileage(), setMileage(mileage:number), getName(), setName(name:string), getModel(), setModel(model:string),           
+          getEngine(), setEngine(engine:string), getColor(), setColor(color:string)
 
 	- carComponent.ts: component in angular is like controller in MVC. fecthes data from carService by calling appropriate methods          
       and send carList to the carComponent.html for tabular view
