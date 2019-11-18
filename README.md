@@ -118,6 +118,16 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
       GETCARS_ENDPOINT
       
 -- CarComponentTest
+  -- carTest
+				-- carComponentTest
+			-- entityTest
+				-- carTest
+			-- serviceTest
+				-- apiServiceTest
+				-- carServiceTest
+        
+        Well written test in Jasmine. 
+
 ```
 
 ## Further help
