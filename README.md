@@ -24,7 +24,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Code Structure
-
+```bash
 Src
   CarComponent
     car
@@ -49,6 +49,7 @@ Src
 		-- app.config.ts
 		-- app.module.ts
 		-- other angular created files
+    ```
 
 ## Further help
 
