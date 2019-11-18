@@ -1,0 +1,34 @@
+<div class="row" >
+      <div class="col-12 mt-3 ml-3" >
+            <label>Click here to refresh the table</label><i class="fas fa-sync-alt ml-2" (click)="onClickRefreshCarList()"></i>
+      </div>
+</div>
+<div class="row mt-3" >
+      <div class="col-12" >
+            <table class="table table-hover">
+                  <thead class="thead-dark"> 
+                        <tr>
+                              <th scope="col">Milleage <i class="fas fa-sort-amount-up ml-3" (click)="sortUpward($event)" id="milleage"></i><i class="fas fa-sort-amount-down-alt ml-3" (click)="sortDownward($event)" id="milleage"></i> </th>
+                              <th scope="col">Name <i class="fas fa-sort-amount-up ml-3" (click)="sortUpward($event)" id="name"></i><i class="fas fa-sort-amount-down-alt ml-3" (click)="sortDownward($event)" id="name"></i> </th>
+                              <th scope="col">Model <i class="fas fa-sort-amount-up ml-3" (click)="sortUpward($event)" id="model"></i><i class="fas fa-sort-amount-down-alt ml-3" (click)="sortDownward($event)" id="model"></i> </th>
+                              <th scope="col">Engine <i class="fas fa-sort-amount-up ml-3" (click)="sortUpward($event)" id="engine"></i><i class="fas fa-sort-amount-down-alt ml-3" (click)="sortDownward($event)" id="engine"></i> </th>
+                              <th scope="col">Color <i class="fas fa-sort-amount-up ml-3" (click)="sortUpward($event)" id="color"></i><i class="fas fa-sort-amount-down-alt ml-3" (click)="sortDownward($event)" id="color"></i></th>
+                        </tr>
+                        <tr>
+                              <td scope="col"><i class="fas fa-filter ml-1 mr-2"></i> <input id="milleage" type = "number"  name="milleage" (keyup)="columnFilter($event)" > </td>
+                              <td scope="col"> <i class="fas fa-filter ml-1 mr-2"></i> <input id="name" type = "text"  name="name"  (keyup)="columnFilter($event)" >  </td>
+                              <td scope="col"> <i class="fas fa-filter ml-1 mr-2"></i> <input id="model" type = "text"  name="model" (keyup)="columnFilter($event)" > </td>
+                              <td scope="col"> <i class="fas fa-filter ml-1 mr-2"></i> <input id="engine" type = "text"  name="engine" (keyup)="columnFilter($event)" > </td>
+                              <td scope="col"> <i class="fas fa-filter ml-1 mr-2"></i> <input id="color" type = "text"  name="color"  (keyup)="columnFilter($event)">  </td>
+                        </tr>
+                  </thead>
+                  <tbody *ngFor="let car of carList" class="fieldsObjectTable">          
+                        <tr>
+                              <td style="margin-right:150px;">{{car.mileage}}</td> <td>{{car.name}}</td>
+                              <td>{{car.model}}</td><td>{{car.engine}}</td>
+                              <td>{{car.color}}</td>
+                        </tr>
+                  </tbody>
+            </table>
+      </div>
+</div>
